@@ -1,6 +1,6 @@
 👋 ¡Hola! Soy Diana Carolina López
 
-Soy estudinate de desarrolladora web apasionada por la tecnología, con experiencia en Java, .NET, C#, HTML, CSS, Bootstrap, JS. 
+Soy estudinate de desarrollado web apasionada por la tecnología, con experiencia en Java, .NET, C#, HTML, CSS, Bootstrap, JS. 
 Actualmente, trabajo en proyectos que integran PostgreSQL, pgAdmin y .NET en Visual Studio Code en Mac. Además, tengo experiencia en IT Support Engineer.
 
 También soy Negociadora Internacional, lo que me permite combinar mi experiencia en tecnología con una visión estratégica en negocios globales.
