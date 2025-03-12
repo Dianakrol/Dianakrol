@@ -30,3 +30,4 @@ node_modules
 /build
 .env
 >>>>>>> ea746bf (Initial commit from create-remix)
+.vercel

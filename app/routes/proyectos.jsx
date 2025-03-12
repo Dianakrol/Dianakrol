@@ -1,6 +1,18 @@
+import { useNavigate } from "@remix-run/react";
+
 export default function Proyectos() {
+  const navigate = useNavigate();
+
   return (
     <div className="min-h-screen bg-gray-900 text-white p-8 font-sans">
+      {/* Botón Atrás */}
+      <button 
+        onClick={() => navigate(-1)} 
+        className="bg-teal-500 text-white px-4 py-2 rounded-lg shadow-md hover:bg-teal-700 transition mb-6"
+      >
+        ⬅ Atrás
+      </button>
+
       <h2 className="text-6xl font-extrabold text-teal-400 tracking-wide">Mis Proyectos</h2>
       
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">

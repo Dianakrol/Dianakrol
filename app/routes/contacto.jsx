@@ -1,6 +1,18 @@
+import { useNavigate } from "@remix-run/react";
+
 export default function Contacto() {
+  const navigate = useNavigate();
+
   return (
     <div className="min-h-screen bg-gray-900 text-white p-8 font-sans">
+      {/* Botón Atrás */}
+      <button 
+        onClick={() => navigate(-1)} 
+        className="bg-teal-500 text-white px-4 py-2 rounded-lg shadow-md hover:bg-teal-700 transition mb-6"
+      >
+        ⬅ Atrás
+      </button>
+
       <h2 className="text-6xl font-extrabold text-teal-400 tracking-wide">Contacto</h2>
       <div className="bg-gray-800 p-8 rounded-xl shadow-lg mt-12">
         <p className="text-gray-300 text-lg mb-8 leading-relaxed">
@@ -16,5 +28,6 @@ export default function Contacto() {
     </div>
   );
 }
+
 
   
