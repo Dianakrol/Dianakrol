@@ -1,4 +1,6 @@
 import { Link } from "@remix-run/react";
+import "@fontsource/inter";
+
 
 export default function Index() {
   return (

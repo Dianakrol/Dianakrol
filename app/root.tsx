@@ -25,14 +25,14 @@ export const links: LinksFunction = () => [
 
 export default function App() {
   return (
-    <html lang="es">
+    <html lang="es" className="h-full">
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <Meta />
         <Links />
       </head>
-      <body className="flex flex-col min-h-screen">
+      <body className="flex flex-col min-h-screen h-screen">
         <main className="flex-grow">
           <Outlet />
         </main>
