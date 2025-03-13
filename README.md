@@ -11,9 +11,9 @@ Lenguajes: Java, C#, SQL, JavaScript
 
 Bases de Datos: PostgreSQL, SQL Server
 
-Frameworks: .NET, Spring Boot, Bootstrap
+Frameworks: .NET, Spring Boot, Bootstrap, tailwind
 
-Front-End: HTML, CSS, JavaScript, Bootstrap
+Front-End: HTML, CSS, JavaScript, Bootstrap, tailwind, React
 
 Herramientas: Visual Studio Code, IntelliJ IDEA, Git, GitHub, pgAdmin
 
